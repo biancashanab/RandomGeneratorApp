@@ -65,5 +65,3 @@ RandomGeneratorApp/
 ├── requirements.txt
 └── README.md
 ```
-
-> Proiectul are scop didactic. LCG și BBS în această formă sunt pentru demonstrarea algoritmilor, nu pentru utilizare criptografică în aplicații reale.
