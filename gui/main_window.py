@@ -42,12 +42,9 @@ class MainWindow(QMainWindow):
         header = QHBoxLayout()
         title_block = QVBoxLayout()
 
-        title = QLabel("Random Generator Laboratory")
-        title.setObjectName("title")
-        subtitle = QLabel("Explore deterministic sequences with LCG and Blum Blum Shub.")
-        subtitle.setObjectName("subtitle")
+        title = QLabel("Random Generator")
+        title.setObjectName("title")    
         title_block.addWidget(title)
-        title_block.addWidget(subtitle)
         header.addLayout(title_block)
         header.addStretch()
         self.status_badge = QLabel("READY  ·  NO SEQUENCE")
@@ -139,9 +136,6 @@ class MainWindow(QMainWindow):
         workspace.addWidget(output_card, 1)
         outer.addLayout(workspace, 1)
 
-        footer = QLabel("ALL GENERATORS ARE DETERMINISTIC FOR FIXED PARAMETERS")
-        footer.setObjectName("footer")
-        outer.addWidget(footer)
         self.setCentralWidget(root)
 
     @staticmethod
