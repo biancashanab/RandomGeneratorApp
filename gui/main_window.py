@@ -139,7 +139,7 @@ class MainWindow(QMainWindow):
         workspace.addWidget(output_card, 1)
         outer.addLayout(workspace, 1)
 
-        footer = QLabel("EDUCATIONAL TOOL  ·  ALL GENERATORS ARE DETERMINISTIC FOR FIXED PARAMETERS")
+        footer = QLabel("ALL GENERATORS ARE DETERMINISTIC FOR FIXED PARAMETERS")
         footer.setObjectName("footer")
         outer.addWidget(footer)
         self.setCentralWidget(root)
